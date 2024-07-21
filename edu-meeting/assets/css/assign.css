@@ -69,3 +69,7 @@ body{
 .scroll-to-section{
     display: block;
 }
+
+h3{
+    color: #3f0000;
+}
