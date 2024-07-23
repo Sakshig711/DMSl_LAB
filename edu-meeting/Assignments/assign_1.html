@@ -7,9 +7,9 @@
   <meta name="description" content="">
   <meta name="author" content="TemplateMo">
   <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-  <link rel="stylesheet" href="./build/static/css/main.9eaa1bf8.css">
+  <!-- <link rel="stylesheet" href="../build/static/css/main.9eaa1bf8.css"> -->
   <title>DMSL VIRTUAL LAB</title>
-  <link rel="stylesheet" href="assign.css">
+  <link rel="stylesheet" href="../assets/css/assign.css">
 </head>
 
 <body>
@@ -27,7 +27,7 @@
     
    </div>  -->
 
-  <img src="pict building.jpg" alt=""
+  <img src="../assets/images/pict building.jpg" alt=""
     style="position: absolute; background-color: rgba(37, 39, 40, 0.75); background-size: cover; position: fixed;">
     <header class="header-area header-sticky" style="position: relative;">
       <div class="container">
@@ -38,9 +38,9 @@
   
   
               <div class="pict">
-                <img src="pict logo 1.png" style="width: 80px; text-align: center;">
+                <img src="../assets/images/pict logo 1.png" style="width: 80px; text-align: center;">
               </div>
-              <a href="index.html" class="logo" style="font-size: 30px; color: #fff; text-decoration: none;">
+              <a href="../index.html" class="logo" style="font-size: 30px; color: #fff; text-decoration: none;">
   
   
                 Pune Institute of Computer Technology
@@ -52,8 +52,8 @@
               <ul class="nav" style="display: flex;">
   
   
-                <li class="scroll-to-section"><a href="index.html" class="active" style="margin-left: 30px; list-style-type: none; color: #fff; text-decoration: none;">Home</a></li>
-                <li class="scroll-to-section"><a href="index.html" class="active" style="margin-left: 30px; list-style-type: none; color: #fff; text-decoration: none;">About Us</a></li>
+                <li class="scroll-to-section"><a href="../index.html" class="active" style="margin-left: 30px; list-style-type: none; color: #fff; text-decoration: none;">Home</a></li>
+                <li class="scroll-to-section"><a href="../aboutus.html" class="active" style="margin-left: 30px; list-style-type: none; color: #fff; text-decoration: none;">About Us</a></li>
                 <li class="scroll-to-section"><a href="index.html" class="active" style="margin-left: 30px; list-style-type: none; color: #fff; text-decoration: none;">Menu</a></li>
               </ul>
               <!-- ***** Menu End ***** -->
@@ -72,23 +72,22 @@
       <div class="MuiTabs-root">
         <button class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit Mui-selected MuiTab-labelIcon"
           tabindex="0" type="button" role="tab" aria-selected="true" id="mui-tab-0" aria-controls="mui-tabpanel-0"
-          onclick="showAimContent()" style="background-color: gray; color: white; border-radius: 5px; height: 40px; width: 80px; margin: 10px;">
-          <span class="MuiTab-wrapper"><i class="fas fa-rocket"></i> Info</span>
-        </button>
+          onclick="showAimContent()" style="background-color: gray; color: white; border-radius: 5px; height: 40px; width: 80px; margin: 10px; ">
+          <span class="MuiTab-wrapper"> Info</span>
         </button>
         <button class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit MuiTab-labelIcon" tabindex="-1"
         type="button" role="tab" aria-selected="false" id="mui-tab-2" aria-controls="mui-tabpanel-2"
         onclick="showTestContent()" style="background-color: gray; color: white; border-radius: 5px; height: 40px; width: 80px; margin: 10px;">
-        <span class="MuiTab-wrapper"><i class="fas fa-table"></i> Quiz</span>
+        <span class="MuiTab-wrapper"> Quiz</span>
         <button class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit MuiTab-labelIcon" tabindex="-1"
         type="button" role="tab" aria-selected="false" id="mui-tab-2" aria-controls="mui-tabpanel-2"
         onclick="" style="background-color: gray; color: white; border-radius: 5px; height: 40px; margin: 10px;">
-        <span class="MuiTab-wrapper"><i class="fas fa-table"></i><a href="https://www.programiz.com/sql/online-compiler/" target="_blank"  style="text-decoration: none;color: #fff;">Try Yourself</a></span>
+        <span class="MuiTab-wrapper"><a href="https://www.programiz.com/sql/online-compiler/" target="_blank"  style="text-decoration: none;color: #fff;">Try Yourself</a></span>
       </button>
         <button class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit MuiTab-labelIcon" tabindex="-1"
           type="button" role="tab" aria-selected="false" id="mui-tab-2" aria-controls="mui-tabpanel-2"
           onclick="showSectionContent('reference')" style="background-color: gray; color: white; border-radius: 5px; height: 40px; width: 80px; margin: 10px;">
-          <span class="MuiTab-wrapper"><i class="fas fa-table"></i> Reference</span>
+          <span class="MuiTab-wrapper"> Reference</span>
         
       </button>
       </div>
@@ -96,82 +95,44 @@
     </div>
 
     <div id="aimContent" class="section-content" style="padding: 30px;">
-      <div style="background-color: #ffffffa9; margin: 40px; padding-bottom: 30px; border-radius: 5px; padding: 30px;">
-        <p class="MuiTypography-root MuiTypography-body1"><b class="expTitle">AIM:</b> <br><br>
-          <p>Study & Compare with suitable example various SQL database systems.<br>&nbsp;</p>
+      <div style="background-color: #ffffffda; margin: 40px; padding-bottom: 30px; border-radius: 10px; padding: 30px;">
+        <p style="align-content: center; color: blue;">Group A: Introduction to Databases </p>
+        <h3 class="MuiTypography-root MuiTypography-body1"><b class="expTitle">AIM:</b></h3>
+          <p> Study & Compare with suitable example various SQL database systems.</p>
           <h3><strong>PROBLEM STATEMENT / DEFINITION:</strong></h3>
-          <p>Study and design a database with suitable example using following database systems: 
-            <li>Relational: MS SQL Server / PostgreSQL / MySQL/SYBASE/Oracle </li>
+          <p>Study and design a database with suitable example using following database systems:  
+            <ul><li>MS SQL Server / PostgreSQL / MySQL/SYBASE/Oracle </li></ul> 
             Compare the different database systems based on points like efficiency, scalability, 
-            characteristics and performance.</p>
-          <p>&nbsp;</p>
-          <h3><strong>OBJECTIVE:</strong></h3>
+            characteristics and performance. </p>
+          <h3>OBJECTIVE:</h3>
           <ol>
-            <li> To study of different type of SQL Databases. </li>
-            <li> To study of advantages of various SQL Databases. </li>
-            <li> To compare the different database systems based on points like efficiency, 
+            <li>To study of different type of SQL Databases.</li>
+            <li>To study of advantages of various SQL Databases. </li>
+            <li>To compare the different database systems based on points like efficiency, 
               scalability, characteristics and performance.</li>
           </ol>
-          <p>&nbsp;</p>
-          <h3><strong>CONCLUSION: </strong></h3>
+          <!-- <p>&nbsp;</p> -->
+          <h3>CONCLUSION:</h3>
           <ol>
-            <li> Study of various open Source RDBMS database systems </li>
-            <li> Compare the different database systems based on points like efficiency, 
-              scalability, characteristics and performance.  </li>
-          </ol>          
-          </p>
+            <li>Study of various open Source RDBMS database systems.</li>
+            <li>Compare the different database systems based on points like efficiency, 
+              scalability, characteristics and performance.</li>
+          </ol>         
+          
       
       </div>
     </div>
     <div id="testContent" class="section-content" style="padding: 30px;">
-      <div style="background-color: #ffffffa9; margin: 40px; padding-bottom: 30px; border-radius: 5px; padding: 30px;">
+      <div style="background-color: #ffffffda; margin: 40px; padding-bottom: 30px; border-radius: 5px; padding: 30px;">
         <p class="MuiTypography-root MuiTypography-body1"><b class="expTitle"></b> <br><br>
          
           <div id='root'></div>
       </div>
     </div>
 
-    <div id="theoryContent" class="section-content">
-      <!-- Theory content -->
-      <div class="row" style="background-color: #ffffffa9; margin: 40px; padding-bottom: 30px; border-radius: 5px;">
-        <div class="column" style="width: 100%; z-index: 99;">
-          <div class=" column1" style="width: 25%; z-index: 99;">
-            <div style=" padding: 20px; margin: 10px; ">
-              <div style="margin-left: 5%; align-items: start; ">
-                <h2>Input</h2>
-                <p>
-                <ol>
-                  <li> sudo mysql</li>
-                  <li> CREATE DATABASE mydatabase(name of your database);</li>
-                </ol>
-              </div>
-            </div>
-
-            </ul>
-            </p>
-          </div>
-
-          <div class=" column2" style="width: 45%; z-index: 99;">
-            <h2></h2>
-            <div style="width: 50px;">
-              <video controls src="ass1vid.mkv" height="400px" width="650px"></video>
-            </div>
-          </div>
-
-          <div style=" margin-left: 50px">
-          <div class=" column3" style="padding: 20px; width: 25%; z-index: 99; justify-items: center;">
-            <h2>Output</h2>
-            <img src="output.png" style="width: 400px;">
-            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p> -->
-          </div>
-        </div>
-        </div>
-        <div class="clearfix"></div>
-      </div>
-    </div>
 
     <div id="reference" class="section-content" style="padding: 30px;">
-      <div style="background-color: #ffffffa9; margin: 40px; padding-bottom: 30px; border-radius: 5px; padding: 30px;">
+      <div style="background-color: #ffffffda; margin: 40px; padding-bottom: 30px; border-radius: 5px; padding: 30px;">
         <p class="MuiTypography-root MuiTypography-body1"><b class="expTitle">REFERENCE BOOK:</b> <br><br>
           <ol>
             <li> Complete Reference of MySql  </li>
