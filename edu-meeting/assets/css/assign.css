@@ -1,33 +1,26 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
 
 .main-nav{
-    padding: 5px;
-    padding-left: 50px;
-    padding-right: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
     z-index: 99;
 }
 
+
 .header-area{
     width: 100%;
-    /* color: #fff; */
     background-color: #413d3da9;
-    height: 90px;
+    height: fit-content;
 }
-
-/* html{
-    /* overflow-x: hidden; */
-/* } */ 
 
 body{
     font-family: 'Poppins', sans-serif;
-  font-weight: 900;
+    /* font-weight: 900; */
     margin: 0;
-    /* filter: brightness(10%); */
     background-color: rgba(31,39,43,0.75);
-    overflow-x: hidden;
-    
-    
+    /* overflow-x: hidden; */
 }
 
 .main-nav{
@@ -37,9 +30,42 @@ body{
     justify-content: space-around;
 
 }
+.pict img{
+    height: 80px;
+    padding-top: 5px;
+}
 
-.pict{
-    width: 45px;
+.logo{
+    font-size: 2em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav {
+    background-color:antiquewhite;
+    border-radius: 5px;
+    display: flex;                   /* Flexbox layout */
+    justify-content: space-between;  /* Equal space between each item */
+    list-style-type: none;           /* Remove default list bullets */
+    padding: 0;                      /* Remove default padding */
+    margin: 0;                       /* Remove default margin */
+    width: 100%;                     /* Make sure the nav spans the full width */
+    max-width: 25%;
+}
+
+/* Individual menu items */
+.nav .scroll-to-section {
+    flex-grow: 1;                    /* Make each item grow to fill the available space */
+    text-align: center;
+}
+
+/* Menu link styling */
+.nav .scroll-to-section a {
+    text-decoration: none;           /* Remove underlines from links */
+    color: black;                /* Link color */
+    display: block;                  /* Make the link cover the entire list item */
+    padding: 10px 0;                 /* Add padding for clickable area */
+    font-size: larger;               /* Increase font size for better visibility */
 }
 
 .wrapper{
@@ -49,14 +75,12 @@ body{
 .topnav{
     display: flex;
     flex-direction: row;
+    flex-wrap:wrap;
     align-items: center;
     padding: 10px;
     z-index: 9999;
     position: relative;
-    background-color: #000;
-    /* background-color: black; */
-    height: 50px;
-   
+    background-color: black;
 }
 
 .column{
@@ -76,4 +100,77 @@ h3{
 
 h2{
     color: #3f0000;
+}
+
+@media screen and (max-width: 600px){
+    .main-nav{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        z-index: 99;
+    }
+    
+    
+    .header-area{
+        width: 100%;
+        background-color: #413d3da9;
+        height: fit-content;
+    }
+    
+    body{
+        font-family: 'Poppins', sans-serif;
+        /* font-weight: 900; */
+        margin: 0;
+        background-color: rgba(31,39,43,0.75);
+        /* overflow-x: hidden; */
+    }
+    
+    .main-nav{
+        /* font-size: large; */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    
+    }
+    .pict img{
+        height: 50px;
+        padding-top: 5px;
+    }
+    
+    .logo{
+        font-size: large;
+        color: white;
+        text-decoration: none;
+    }
+    
+    .nav {
+        font-size: 10px;
+        width: 100%;                     /* Make sure the nav spans the full width */
+        max-width: 600px;
+    }
+
+    .wrapper{
+        position: relative;
+    }
+    
+    .topnav{
+        font-size: 5px;
+    }
+    
+    .MuiTabs-root{
+        width: fit-content;
+        flex-wrap: nowrap;
+    }
+
+    .section-content{
+        margin:0px;
+    }
+    .column{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
 }
