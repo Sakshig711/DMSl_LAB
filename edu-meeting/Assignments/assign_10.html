@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="TemplateMo">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link rel="stylesheet" href="../build/static/css/main.9eaa1bf8.css">
+  <title>DMSL VIRTUAL LAB</title>
+  <link rel="stylesheet" href="../assets/css/assign.css">
+</head>
+
+<body>
+  <style>
+    body {
+      background-size: 50% 50%;
+      background-repeat: no-repeat;
+    }
+  </style>
+
+  <img src="../assets/images/pict building.jpg" alt=""
+    style="position: absolute; background-color: rgba(37, 39, 40, 0.75); background-size: cover; position: fixed;">
+  <header class="header-area header-sticky" style="position: relative;">
+    <div class="container">
+      <div class="col-12">
+        <nav class="main-nav">
+          <div class="pict">
+            <img src="../assets/images/pict logo 1.png">
+          </div>
+          <a href="../index.html" class="logo">
+            Pune Institute of Computer Technology
+          </a>
+          <ul class="nav">
+            <li class="scroll-to-section"><a href="../index.html" class="active">Home</a></li>
+            <li class="scroll-to-section"><a href="../aboutus.html" class="active">About Us</a></li>
+            <li class="scroll-to-section"><a href="index.html" class="active">Menu</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <div class="wrapper">
+    <div class="topnav">
+      <div class="MuiTabs-root">
+        <button class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit Mui-selected MuiTab-labelIcon"
+          tabindex="0" type="button" role="tab" aria-selected="true" id="mui-tab-0" aria-controls="mui-tabpanel-0"
+          onclick="showAimContent()" style="background-color: gray; color: white; border-radius: 5px; height: 40px; width: 80px; margin: 10px;">
+          <span class="MuiTab-wrapper"> Info</span>
+        </button>
+        <button class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit MuiTab-labelIcon" tabindex="-1"
+          type="button" role="tab" aria-selected="false" id="mui-tab-1" aria-controls="mui-tabpanel-1"
+          onclick="showSectionContent('theoryContent')" style="background-color: gray; color: white; border-radius: 5px; height: 40px; width: 80px; margin: 10px;">
+          <span class="MuiTab-wrapper"> Demo</span>
+        </button>
+        <button class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit MuiTab-labelIcon" tabindex="-1"
+          type="button" role="tab" aria-selected="false" id="mui-tab-2" aria-controls="mui-tabpanel-2"
+          onclick="showQuizContent()" style="background-color: gray; color: white; border-radius: 5px; height: 40px; width: 80px; margin: 10px;">
+          <span class="MuiTab-wrapper"> Quiz</span>
+        </button>
+        <button class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit MuiTab-labelIcon" tabindex="-1"
+          type="button" role="tab" aria-selected="false" id="mui-tab-3" aria-controls="mui-tabpanel-3"
+          onclick="" style="background-color: gray; color: white; border-radius: 5px; height: 40px; margin: 10px;">
+          <span class="MuiTab-wrapper"><a href="https://www.programiz.com/sql/online-compiler/" target="_blank" style="text-decoration: none;color: #fff;">Try Yourself</a></span>
+        </button>
+        <button class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit MuiTab-labelIcon" tabindex="-1"
+          type="button" role="tab" aria-selected="false" id="mui-tab-4" aria-controls="mui-tabpanel-4"
+          onclick="showSectionContent('reference')" style="background-color: gray; color: white; border-radius: 5px; height: 40px; width: 80px; margin: 10px;">
+          <span class="MuiTab-wrapper"> Reference</span>
+        </button>
+      </div>
+    </div>
+
+    <div id="aimContent" class="section-content" style="padding: 30px;">
+  <div style="background-color: #ffffffda; margin: 40px; padding-bottom: 30px; border-radius: 5px; padding: 30px;">
+    <h3 class="MuiTypography-root MuiTypography-body1"><b class="expTitle">AIM:</b></h3>
+    <p>Write and execute PL/SQL stored procedure and function to perform a suitable task on above DB.</p>
+    <h3><strong>PROBLEM STATEMENT / DEFINITION:</strong></h3>
+    <ol>
+      <li>PL/SQL assignments based on tables created.</li>
+      <li>Write simple PL/SQL programs to perform different operations on tables.</li>
+      <li>Write trigger and execute it on a table.</li>
+    </ol>
+    <h3>OBJECTIVE:</h3>
+    <p>To understand PL/SQL and the concept of procedures/functions.</p>
+    <h3>CONCLUSION:</h3>
+    <p>Understand the concept of PL/SQL block by implementing all types of procedures and functions on DB.</p>
+  </div>
+</div>
+
+<div id="reference" class="section-content" style="padding: 30px;">
+  <div style="background-color: #ffffffda; margin: 40px; padding-bottom: 30px; border-radius: 5px; padding: 30px;">
+    <h3 class="MuiTypography-root MuiTypography-body1"><b class="expTitle">REFERENCE BOOK:</b></h3>
+    <ol>
+      <li>Silberschatz A., Korth H., Sudarshan S., "Database System Concepts", 6th Edition, McGraw Hill Publishers, ISBN 0-07-120413-X.</li>
+      <li>The Complete Reference MySQL - McGraw Hill.</li>
+      <li>DBMS Complete Practical Approach - Maheshwari, Jain.</li>
+    </ol>
+  </div>
+</div>
+
+
+    <div id="theoryContent" class="section-content">
+      <div class="row" style="background-color: #ffffffda; margin: 40px; padding-bottom: 30px; border-radius: 5px;">
+        <div class="column" style="width: 100%; z-index: 99;">
+          <div class="column1" style="width: 25%; z-index: 99;">
+            <div style="padding: 20px; margin: 10px;">
+              <div style="margin-left: 5%; align-items: start;">
+                <h2>Input</h2>
+                <p>
+                  <ol>
+                    <li>Create Indexes</li>
+                    <li>Use joins</li>
+                    <li>View Indexes</li>
+                    <li>Access Indexes</li>
+                  </ol>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column2" style="width: 45%; z-index: 99;">
+            <h2></h2>
+            <div style="width: 50px;">
+              <video controls src="../assets/videos/Assignment_6.mp4" height="400px" width="650px"></video>
+            </div>
+          </div>
+
+          <div style="margin-left: 50px">
+            <div class="column3">
+              <h2>Output</h2>
+              <p>
+                <ol>
+                  <li>Successfully Access Indexes</li>
+                  <li>Successfully Access VIEWS</li>
+                </ol>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+
+    <div id="quizContent" class="section-content" style="padding: 30px; display: none;">
+      <div style="background-color: #ffffffda; margin: 40px; padding-bottom: 30px; border-radius: 5px; padding: 30px;">
+        <h3 class="MuiTypography-root MuiTypography-body1"><b class="expTitle">QUIZ SECTION:</b></h3>
+        <p>Coming Soon</p>
+      </div>
+    </div>
+
+    <div id="reference" class="section-content" style="padding: 30px;">
+      <div style="background-color: #ffffffda; margin: 40px; padding-bottom: 30px; border-radius: 5px; padding: 30px;">
+        <h3 class="MuiTypography-root MuiTypography-body1"><b class="expTitle">REFERENCE BOOK:</b></h3>
+        <ol>
+          <li>Silberschatz A., Korth H., Sudarshan S., "Database System Concepts", 6th Edition, McGraw Hill Publishers, ISBN 0-07-120413-X.</li>
+          <li>The Complete Reference MySQL - McGraw Hill.</li>
+          <li>DBMS Complete Practical Approach - Maheshwari, Jain.</li>
+        </ol>
+      </div>
+    </div>
+    
+  </div>
+  
+  
+
+  <script>
+    function showAimContent() {
+      showSectionContent('aimContent');
+    }
+
+    function showQuizContent() {
+      showSectionContent('quizContent');
+    }
+
+    function showSectionContent(sectionId) {
+      const sectionContents = document.querySelectorAll('.section-content');
+      sectionContents.forEach(section => {
+        section.style.display = 'none';
+      });
+      document.getElementById(sectionId).style.display = 'block';
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+      showAimContent();
+    });
+  </script>
+  <script src="./build/static/js/main.8bfa0d8a.js"></script>
+</body>
+
+</html>

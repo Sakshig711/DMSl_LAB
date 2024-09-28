@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="TemplateMo">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link rel="stylesheet" href="../build/static/css/main.9eaa1bf8.css">
+  <title>DMSL VIRTUAL LAB</title>
+  <link rel="stylesheet" href="../assets/css/assign.css">
+</head>
+
+<body>
+  <style>
+    body {
+      background-size: 50% 50%;
+      background-repeat: no-repeat;
+    }
+  </style>
+
+  <img src="../assets/images/pict building.jpg" alt=""
+    style="position: absolute; background-color: rgba(37, 39, 40, 0.75); background-size: cover; position: fixed;">
+  <header class="header-area header-sticky" style="position: relative;">
+    <div class="container">
+      <div class="col-12">
+        <nav class="main-nav">
+          <div class="pict">
+            <img src="../assets/images/pict logo 1.png">
+          </div>
+          <a href="../index.html" class="logo">
+            Pune Institute of Computer Technology
+          </a>
+          <ul class="nav">
+            <li class="scroll-to-section"><a href="../index.html" class="active">Home</a></li>
+            <li class="scroll-to-section"><a href="../aboutus.html" class="active">About Us</a></li>
+            <li class="scroll-to-section"><a href="index.html" class="active">Menu</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <div class="wrapper">
+    <div class="topnav">
+      <div class="MuiTabs-root">
+        <button class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit Mui-selected MuiTab-labelIcon"
+          tabindex="0" type="button" role="tab" aria-selected="true" id="mui-tab-0" aria-controls="mui-tabpanel-0"
+          onclick="showAimContent()" style="background-color: gray; color: white; border-radius: 5px; height: 40px; width: 80px; margin: 10px;">
+          <span class="MuiTab-wrapper"> Info</span>
+        </button>
+        <button class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit MuiTab-labelIcon" tabindex="-1"
+          type="button" role="tab" aria-selected="false" id="mui-tab-1" aria-controls="mui-tabpanel-1"
+          onclick="showSectionContent('theoryContent')" style="background-color: gray; color: white; border-radius: 5px; height: 40px; width: 80px; margin: 10px;">
+          <span class="MuiTab-wrapper"> Demo</span>
+        </button>
+        <button class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit MuiTab-labelIcon" tabindex="-1"
+          type="button" role="tab" aria-selected="false" id="mui-tab-2" aria-controls="mui-tabpanel-2"
+          onclick="showQuizContent()" style="background-color: gray; color: white; border-radius: 5px; height: 40px; width: 80px; margin: 10px;">
+          <span class="MuiTab-wrapper"> Quiz</span>
+        </button>
+        <button class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit MuiTab-labelIcon" tabindex="-1"
+          type="button" role="tab" aria-selected="false" id="mui-tab-3" aria-controls="mui-tabpanel-3"
+          onclick="" style="background-color: gray; color: white; border-radius: 5px; height: 40px; margin: 10px;">
+          <span class="MuiTab-wrapper"><a href="https://www.programiz.com/sql/online-compiler/" target="_blank" style="text-decoration: none;color: #fff;">Try Yourself</a></span>
+        </button>
+        <button class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit MuiTab-labelIcon" tabindex="-1"
+          type="button" role="tab" aria-selected="false" id="mui-tab-4" aria-controls="mui-tabpanel-4"
+          onclick="showSectionContent('reference')" style="background-color: gray; color: white; border-radius: 5px; height: 40px; width: 80px; margin: 10px;">
+          <span class="MuiTab-wrapper"> Reference</span>
+        </button>
+      </div>
+    </div>
+
+    <div id="aimContent" class="section-content" style="padding: 30px;">
+      <div style="background-color: #ffffffda; margin: 40px; padding-bottom: 30px; border-radius: 5px; padding: 30px;">
+        <h3 class="MuiTypography-root MuiTypography-body1"><b class="expTitle">AIM:</b></h3>
+        <p>Manage Data into the above tables using Insert, Select, Update, Delete DML SQL queries.</p>
+        <h3><strong>PROBLEM STATEMENT / DEFINITION:</strong></h3>
+        <p>Manage Data into the above tables using Insert, Select, Update, Delete with operators, functions, and set operator. And Execute queries like:</p>
+        <ul>
+          <li>Display all the Purchase orders of a specific Customer.</li>
+          <li>Get Customer and Data Item Information for a Specific Purchase Order.</li>
+          <li>Get the Total Value of Purchase Orders.</li>
+          <li>List the Purchase Orders in descending order as per total.</li>
+          <li>Display the name of customers whose first name starts with “Rav”. (String matching: Like operator)</li>
+          <li>Display the name of customer whose order amount is greater than all the customers. (Relational Operator: <, >, <=, >=, = =, !=)</li>
+          <li>Display order details of customer whose city name is “Pune” and purchase date is “22/08/2016” (Boolean Operators: and, or)</li>
+          <li>Add discount of 5% to all the customers whose order is more than Rs. 10000/-. (Arithmetic Operators +, -, *, /)</li>
+          <li>Delete Purchase Order 1001.</li>
+        </ul>
+        <h3>OBJECTIVE:</h3>
+        <p>1. To understand use of various DML queries.</p>
+        <p>2. To understand use of various clauses: operators, functions, and set operator in DML queries.</p>
+        <h3>CONCLUSION:</h3>
+        <p>1. To study various basic DML commands.</p>
+        <p>2. To study various clauses written with DML commands like operators, functions, and set operator.</p>         
+      </div>
+    </div>
+
+    <div id="theoryContent" class="section-content">
+      <div class="row" style="background-color: #ffffffda; margin: 40px; padding-bottom: 30px; border-radius: 5px;">
+        <div class="column" style="width: 100%; z-index: 99;">
+          <div class="column1" style="width: 25%; z-index: 99;">
+            <div style="padding: 20px; margin: 10px;">
+              <div style="margin-left: 5%; align-items: start;">
+                <h2>Input</h2>
+                <p>
+                  <ol>
+                    <li>Create Indexes</li>
+                    <li>Use joins</li>
+                    <li>View Indexes</li>
+                    <li>Access Indexes</li>
+                  </ol>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column2" style="width: 45%; z-index: 99;">
+            <h2></h2>
+            <div style="width: 50px;">
+              <video controls src="../assets/videos/Assignment_6.mp4" height="400px" width="650px"></video>
+            </div>
+          </div>
+
+          <div style="margin-left: 50px">
+            <div class="column3">
+              <h2>Output</h2>
+              <p>
+                <ol>
+                  <li>Successfully Access Indexes</li>
+                  <li>Successfully Access VIEWS</li>
+                </ol>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+
+    <div id="quizContent" class="section-content" style="padding: 30px; display: none;">
+      <div style="background-color: #ffffffda; margin: 40px; padding-bottom: 30px; border-radius: 5px; padding: 30px;">
+        <h3 class="MuiTypography-root MuiTypography-body1"><b class="expTitle">QUIZ SECTION:</b></h3>
+        <form>
+          <p>1. What does SQL stand for?</p>
+          <input type="radio" name="q1" value="a">Structured Query Language<br>
+          <input type="radio" name="q1" value="b">Simple Query Language<br>
+          <input type="radio" name="q1" value="c">Sequential Query Language<br>
+
+          <p>2. Which SQL statement is used to extract data from a database?</p>
+          <input type="radio" name="q2" value="a">GET<br>
+          <input type="radio" name="q2" value="b">SELECT<br>
+          <input type="radio" name="q2" value="c">EXTRACT<br>
+
+          <p>3. Which SQL statement is used to update data in a database?</p>
+          <input type="radio" name="q3" value="a">UPDATE<br>
+          <input type="radio" name="q3" value="b">MODIFY<br>
+          <input type="radio" name="q3" value="c">SET<br>
+
+          <br>
+          <button type="submit" style="background-color: #4CAF50; color: white; border: none; padding: 10px 15px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer;">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <div id="reference" class="section-content" style="padding: 30px;">
+      <div style="background-color: #ffffffda; margin: 40px; padding-bottom: 30px; border-radius: 5px; padding: 30px;">
+        <h3 class="MuiTypography-root MuiTypography-body1"><b class="expTitle">REFERENCE BOOK:</b></h3>
+        <li>Silberschatz A., Korth H., Sudarshan S., "Database System Concepts", 6th Edition, McGraw Hill Publishers, ISBN 0-07-120413-X</li>
+        <li>Complete Reference of MySQL, McGraw Hill Publishers</li>
+      </div>
+    </div>
+  </div>
+  
+  
+
+  <script>
+    function showAimContent() {
+      showSectionContent('aimContent');
+    }
+
+    function showQuizContent() {
+      showSectionContent('quizContent');
+    }
+
+    function showSectionContent(sectionId) {
+      const sectionContents = document.querySelectorAll('.section-content');
+      sectionContents.forEach(section => {
+        section.style.display = 'none';
+      });
+      document.getElementById(sectionId).style.display = 'block';
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+      showAimContent();
+    });
+  </script>
+  <script src="./build/static/js/main.8bfa0d8a.js"></script>
+</body>
+
+</html>

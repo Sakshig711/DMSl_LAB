@@ -7,7 +7,6 @@
   <meta name="description" content="">
   <meta name="author" content="TemplateMo">
   <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-  <!-- <link rel="stylesheet" href="../build/static/css/main.9eaa1bf8.css"> -->
   <title>DMSL VIRTUAL LAB</title>
   <link rel="stylesheet" href="../assets/css/assign.css">
 </head>
@@ -15,45 +14,35 @@
 <body>
   <style>
     body {
-      /* background-image: url('pict building.jpg'); */
       background-size: 50% 50%;
       background-repeat: no-repeat;
-      /* filter: brightness(50%); */
-
     }
   </style>
 
-  <!-- <div class="header">
-    
-   </div>  -->
-
-  <img src="../assets/images/pict building.jpg" alt=""
-    style="position: absolute; background-color: rgba(37, 39, 40, 0.75); background-size: cover; position: fixed;">
-    <header class="header-area header-sticky" style="position: relative;">
-      <div class="container">
-        <div class="col-12">
-          <nav class="main-nav">
-            <div class="pict">
-              <img src="../assets/images/pict logo 1.png">
-            </div>
-            <a href="../index.html" class="logo">
-                Pune Institute of Computer Technology
-            </a>
-            <ul class="nav">
-              <li class="scroll-to-section"><a href="../index.html" class="active" >Home</a></li>
-              <li class="scroll-to-section"><a href="../aboutus.html" class="active" >About Us</a></li>
-              <li class="scroll-to-section"><a href="index.html" class="active">Menu</a></li>
-            </ul>
-          </nav>
-        </div>
+  <img src="../assets/images/pict building.jpg" alt="" style="position: absolute; background-color: rgba(37, 39, 40, 0.75); background-size: cover; position: fixed;">
+  
+  <header class="header-area header-sticky" style="position: relative;">
+    <div class="container">
+      <div class="col-12">
+        <nav class="main-nav">
+          <div class="pict">
+            <img src="../assets/images/pict logo 1.png">
+          </div>
+          <a href="../index.html" class="logo">
+            Pune Institute of Computer Technology
+          </a>
+          <ul class="nav">
+            <li class="scroll-to-section"><a href="../index.html" class="active">Home</a></li>
+            <li class="scroll-to-section"><a href="../aboutus.html" class="active">About Us</a></li>
+            <li class="scroll-to-section"><a href="index.html" class="active">Menu</a></li>
+          </ul>
+        </nav>
       </div>
+    </div>
   </header>
-
 
   <div class="wrapper">
     <div class="topnav">
-
-
       <div class="MuiTabs-root">
         <button class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit Mui-selected MuiTab-labelIcon"
           tabindex="0" type="button" role="tab" aria-selected="true" id="mui-tab-0" aria-controls="mui-tabpanel-0"
@@ -66,135 +55,134 @@
           <span class="MuiTab-wrapper"> Demo</span>
         </button>
         <button class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit MuiTab-labelIcon" tabindex="-1"
-        type="button" role="tab" aria-selected="false" id="mui-tab-2" aria-controls="mui-tabpanel-2"
-        onclick="showTestContent()" style="background-color: gray; color: white; border-radius: 5px; height: 40px; width: 80px; margin: 10px;">
-        <span class="MuiTab-wrapper"> Quiz</span>
+          type="button" role="tab" aria-selected="false" id="mui-tab-2" aria-controls="mui-tabpanel-2"
+          onclick="showQuizContent()" style="background-color: gray; color: white; border-radius: 5px; height: 40px; width: 80px; margin: 10px;">
+          <span class="MuiTab-wrapper"> Quiz</span>
+        </button>
         <button class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit MuiTab-labelIcon" tabindex="-1"
-        type="button" role="tab" aria-selected="false" id="mui-tab-2" aria-controls="mui-tabpanel-2"
-        onclick="" style="background-color: gray; color: white; border-radius: 5px; height: 40px; margin: 10px;">
-        <span class="MuiTab-wrapper"><a href="https://www.programiz.com/sql/online-compiler/" target="_blank"  style="text-decoration: none;color: #fff;">Try Yourself</a></span>
-      </button>
+          type="button" role="tab" aria-selected="false" id="mui-tab-2" aria-controls="mui-tabpanel-2"
+          style="background-color: gray; color: white; border-radius: 5px; height: 40px; margin: 10px;">
+          <span class="MuiTab-wrapper"><a href="https://www.programiz.com/sql/online-compiler/" target="_blank" style="text-decoration: none; color: #fff;">Try Yourself</a></span>
+        </button>
         <button class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit MuiTab-labelIcon" tabindex="-1"
           type="button" role="tab" aria-selected="false" id="mui-tab-2" aria-controls="mui-tabpanel-2"
           onclick="showSectionContent('reference')" style="background-color: gray; color: white; border-radius: 5px; height: 40px; width: 80px; margin: 10px;">
           <span class="MuiTab-wrapper"> Reference</span>
-        
-      </button>
+        </button>
       </div>
-
     </div>
 
     <div id="aimContent" class="section-content" style="padding: 30px;">
       <div style="background-color: #ffffffda; margin: 40px; padding-bottom: 30px; border-radius: 5px; padding: 30px;">
         <h3 class="MuiTypography-root MuiTypography-body1"><b class="expTitle">AIM:</b></h3>
-          <p>Design & Develop DB for “Order Management System” with all the constraints.</p>
-          <h3><strong>PROBLEM STATEMENT / DEFINITION:</strong></h3>
-          <p>Design & Develop DB for “Order Management System” with all the constraints. (There 
-            must be At least 3 entities and relationships between them.)  
-            The statement should use SQL objects such as Table, View, Index, and Sequence.  </p>
-          <h3>OBJECTIVE:</h3>
-          <p>
-            <ol>
-            <li>Apply DCL and DDL commands to convert ER/EER diagram to tables. </li>
-            <li>To understand the technique for converting ER diagram into tables </li>
+        <p>Design & Develop DB for “Order Management System” with all the constraints.</p>
+        <h3><strong>PROBLEM STATEMENT / DEFINITION:</strong></h3>
+        <p>Design & Develop DB for “Order Management System” with all the constraints. (There 
+          must be At least 3 entities and relationships between them.)  
+          The statement should use SQL objects such as Table, View, Index, and Sequence.  </p>
+        <h3>OBJECTIVE:</h3>
+        <p>
+          <ol>
+            <li>Apply DCL and DDL commands to convert ER/EER diagram to tables.</li>
+            <li>To understand the technique for converting ER diagram into tables</li>
             <li>To understand use of DDL , DCL</li>
           </ol>
         </p>
-          <!-- <p>&nbsp;</p> -->
-          <h3>CONCLUSION:</h3>
-          <p>Understand to design and develop relational database system by using MySql.</p>         
-          
-      
+        <h3>CONCLUSION:</h3>
+        <p>Understand to design and develop relational database system by using MySql.</p>         
       </div>
     </div>
+
     <div id="testContent" class="section-content" style="padding: 30px;">
       <div style="background-color: #ffffffda; margin: 40px; padding-bottom: 30px; border-radius: 5px; padding: 30px;">
         <p class="MuiTypography-root MuiTypography-body1"><b class="expTitle"></b> <br><br>
-         
-          <div id='root'></div>
+        <div id='root'></div>
       </div>
     </div>
 
     <div id="theoryContent" class="section-content">
-      <!-- Theory content -->
       <div class="row" style="background-color: #ffffffda; margin: 40px; padding-bottom: 30px; border-radius: 5px;">
         <div class="column" style="width: 100%; z-index: 99;">
-          <div class=" column1" style="width: 25%; z-index: 99;">
-            <div style=" padding: 20px; margin: 10px; ">
-              <div style="margin-left: 5%; align-items: start; ">
+          <div class="column1" style="width: 25%; z-index: 99;">
+            <div style="padding: 20px; margin: 10px;">
+              <div style="margin-left: 5%; align-items: start;">
                 <h2>Input</h2>
                 <p>
-                <ol>
-                  <li>CREATE DATABASE</li>
-                  <li>Create Neccesary Tables</li>
-                  <li>Insert Data</li>
-                  <li>Create View as required</li>
-                  <li>Give indexing</li>
-                </ol>
+                  <ol>
+                    <li>CREATE DATABASE</li>
+                    <li>Create Necessary Tables</li>
+                    <li>Insert Data</li>
+                    <li>Create View as required</li>
+                    <li>Give indexing</li>
+                  </ol>
+                </p>
               </div>
             </div>
-
-            </ul>
-            </p>
           </div>
 
-          <div class=" column2" style="width: 45%; z-index: 99;">
+          <div class="column2" style="width: 45%; z-index: 99;">
             <h2></h2>
             <div style="width: 50px;">
               <video controls src="../assets/videos/Assignment_5.mp4" height="400px" width="650px"></video>
             </div>
           </div>
 
-          <div style=" margin-left: 50px">
-          <div class=" column3">
-            <!-- style="padding: 20px; width: 25%; z-index: 99; justify-items: center; -->
-            <h2>Output</h2>
-            <!-- <img src="output.png" style="width: 400px;"> -->
-            <p>
-              <ol>
-                <li>Table Structure created in database mysql statement</li>
-                <li>All Database inserted in tables</li>
-                <li>ER diagram is converted in Tables</li>
-              </ol>
-            </p>
+          <div style="margin-left: 50px">
+            <div class="column3">
+              <h2>Output</h2>
+              <p>
+                <ol>
+                  <li>Table Structure created in database mysql statement</li>
+                  <li>All Database inserted in tables</li>
+                  <li>ER diagram is converted in Tables</li>
+                </ol>
+              </p>
+            </div>
           </div>
-        </div>
         </div>
         <div class="clearfix"></div>
       </div>
     </div>
 
-    <div id="reference" class="section-content" style="padding: 30px;">
+    <div id="quizContent" class="section-content" style="padding: 30px; display: none;">
       <div style="background-color: #ffffffda; margin: 40px; padding-bottom: 30px; border-radius: 5px; padding: 30px;">
-        <h3 class="MuiTypography-root MuiTypography-body1"><b class="expTitle">REFERENCES:</b></h3>
-          <ol>
-            <li>Auto Increment:  
-              <a href="https://www.w3schools.com/mysql/mysql_autoincrement.asp" target="_blank" >  Learn Using Auto Increment</a>
-            </li>
-            <li>Views:
-              <a href="https://www.w3schools.com/mysql/mysql_view.asp" target="_blank">  Learn Creating View</a>
-            </li>
-            <li>Indexing:
-              <a href="https://www.w3schools.com/mysql/mysql_create_index.asp" target="_blank">  Learn Indexing</a>
-            </li>
-          </ol>
+        <h3 class="MuiTypography-root MuiTypography-body1"><b class="expTitle">Quiz:</b></h3>
+        <p>Test your knowledge with the following questions:</p>
+        <ol>
+          <li>What is the purpose of a foreign key in a database?</li>
+          <li>Explain the difference between INNER JOIN and LEFT JOIN.</li>
+          <li>What is normalization, and why is it important?</li>
+          <li>Define a view in SQL.</li>
+          <li>What are indexes in SQL, and how do they improve performance?</li>
+        </ol>
       </div>
     </div>
 
-    
-
+    <div id="reference" class="section-content" style="padding: 30px;">
+      <div style="background-color: #ffffffda; margin: 40px; padding-bottom: 30px; border-radius: 5px; padding: 30px;">
+        <h3 class="MuiTypography-root MuiTypography-body1"><b class="expTitle">Reference:</b></h3>
+        <ol>
+          <li>Creating Tables:
+            <a href="https://www.w3schools.com/sql/sql_create_table.asp" target="_blank">Learn Creating Tables</a>
+          </li>
+          <li>Views:
+            <a href="https://www.w3schools.com/sql/sql_create_view.asp" target="_blank">Learn Creating View</a>
+          </li>
+          <li>Indexing:
+            <a href="https://www.w3schools.com/sql/sql_create_index.asp" target="_blank">Learn Indexing</a>
+          </li>
+        </ol>
+      </div>
+    </div>
   </div>
- 
+
   <script>
     function showHome() {
-      // Implement logic to navigate to the home page
-      // alert('Navigate to Home Page');
       showSectionContent('aimContent');
-      
     }
 
     function showTable() {
-      showSectionContent('tableContent');
+      showSectionContent('theoryContent');
     }
 
     function showOtherContent() {
@@ -204,42 +192,31 @@
     function showAimContent() {
       showSectionContent('aimContent');
     }
-    function showTestContent(){
-      showSectionContent('testContent');
+
+    function showQuizContent() {
+      showSectionContent('quizContent');
     }
 
     function showSectionContent(sectionId) {
-      // Hide all section contents
       const sectionContents = document.querySelectorAll('.section-content');
       sectionContents.forEach(section => {
         section.style.display = 'none';
       });
-
-      // Show the selected section content
       document.getElementById(sectionId).style.display = 'block';
     }
 
     function hideAllSections() {
-    const sectionContents = document.querySelectorAll('.section-content');
-    sectionContents.forEach(section => {
-      section.style.display = 'none';
+      const sectionContents = document.querySelectorAll('.section-content');
+      sectionContents.forEach(section => {
+        section.style.display = 'none';
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+      showAimContent();
     });
-  }
-
-  // Function to show the AIM section content
-  function showAimContent() {
-    hideAllSections();
-    document.getElementById('aimContent').style.display = 'block';
-  }
-
-  // Function to run when the page loads
-  document.addEventListener('DOMContentLoaded', function () {
-    // By default, show the AIM section content
-    showAimContent();
-  });
-  
   </script>
- <script src="./build/static/js/main.8bfa0d8a.js"></script>
-</body>
 
+  <script src="./build/static/js/main.8bfa0d8a.js"></script>
+</body>
 </html>

@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
 
+
 .main-nav{
     display: flex;
     flex-direction: row;
@@ -7,7 +8,6 @@
     width: 100%;
     z-index: 99;
 }
-
 
 .header-area{
     width: 100%;
@@ -17,10 +17,8 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    /* font-weight: 900; */
     margin: 0;
     background-color: rgba(31,39,43,0.75);
-    /* overflow-x: hidden; */
 }
 
 .main-nav{
@@ -28,7 +26,7 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-
+    background-color: #302b2bb4;
 }
 .pict img{
     height: 80px;
@@ -42,7 +40,6 @@ body{
 }
 
 .nav {
-    background-color:antiquewhite;
     border-radius: 5px;
     display: flex;                   /* Flexbox layout */
     justify-content: space-between;  /* Equal space between each item */
@@ -62,7 +59,7 @@ body{
 /* Menu link styling */
 .nav .scroll-to-section a {
     text-decoration: none;           /* Remove underlines from links */
-    color: black;                /* Link color */
+    color: #f5a425;                /* Link color */
     display: block;                  /* Make the link cover the entire list item */
     padding: 10px 0;                 /* Add padding for clickable area */
     font-size: larger;               /* Increase font size for better visibility */
@@ -80,7 +77,7 @@ body{
     padding: 10px;
     z-index: 9999;
     position: relative;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
 .column{
@@ -102,7 +99,35 @@ h2{
     color: #3f0000;
 }
 
-@media screen and (max-width: 600px){
+.row{
+    background-color: #ffffffda;
+    margin: 40px; 
+    padding-bottom: 30px; border-radius: 5px;
+}
+
+.column{
+    width: 100%;
+    z-index: 99;
+}
+
+.column1{
+    width: 25%; 
+    z-index: 99;
+}
+
+.column2{
+    width: 45%;
+    z-index: 99;
+}
+
+.column3{
+    padding: 20px;
+    width: 25%; 
+    z-index: 99; 
+    justify-items: center;
+}
+
+@media screen and (max-width: 700px){
     .main-nav{
         display: flex;
         flex-direction: row;
@@ -148,7 +173,7 @@ h2{
     .nav {
         font-size: 10px;
         width: 100%;                     /* Make sure the nav spans the full width */
-        max-width: 600px;
+        max-width: 500px;
     }
 
     .wrapper{
@@ -164,13 +189,30 @@ h2{
         flex-wrap: nowrap;
     }
 
-    .section-content{
-        margin:0px;
+    .row{
+        display: flex;
+        flex-direction: row;
     }
+
     .column{
         display: flex;
         flex-direction: row;
-        align-items: center;
-        justify-content: center;
+    }
+
+    .column{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .column1{
+        width: fit-content;
+    }
+    
+    .column2 img{
+        width: 150px;
+    }
+    
+    .column3{
+        width:fit-content;
     }
 }
